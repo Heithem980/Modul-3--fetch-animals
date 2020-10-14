@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+ul {
+  list-style: none;
+  background-color: beige;
+  width: 250px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+button {
+  width: 100px;
+  height: 25px;
+}
+
+.showPic {
+  width: 600px;
+  height: 500px;
+  border-radius: 5%;
+}
