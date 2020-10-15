@@ -12,7 +12,6 @@ btnDog.addEventListener("click", () => {
       return blob.json();
     })
     .then((data) => {
-      console.log(data);
       showPic.src = data.message;
     });
 });
@@ -25,7 +24,6 @@ btnCat.addEventListener("click", () => {
       return blob.json();
     })
     .then((data) => {
-      console.log(data);
       showPic.src = data.file;
     });
 });
@@ -37,7 +35,6 @@ btnFox.addEventListener("click", () => {
       return blob.json();
     })
     .then((data) => {
-      console.log(data);
       showPic.src = data.image;
     });
 });
