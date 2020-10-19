@@ -1,5 +1,5 @@
 const dogsURL = "https://dog.ceo/api/breeds/image/random";
-const catsURL = " http://aws.random.cat/meow";
+const catsURL = " https://aws.random.cat/meow";
 const foxesURL = "https://randomfox.ca/floof/";
 
 const showPic = document.querySelector(".showPic");
