@@ -1,5 +1,5 @@
 const dogsURL = "https://dog.ceo/api/breeds/image/random";
-const catsURL = " http:\/\/aws.random.cat\/meow";
+const catsURL = " http://aws.random.cat/meow";
 const foxesURL = "https://randomfox.ca/floof/";
 
 const showPic = document.querySelector(".showPic");
@@ -24,7 +24,7 @@ btnCat.addEventListener("click", () => {
       return blob.json();
     })
     .then((data) => {
-      console.log(data)
+      console.log(data);
       showPic.src = data.file;
     });
 });
