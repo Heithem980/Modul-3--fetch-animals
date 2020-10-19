@@ -1,5 +1,5 @@
 const dogsURL = "https://dog.ceo/api/breeds/image/random";
-const catsURL = " https://api.thecatapi.com/v1/images/search";
+const catsURL = " http:\/\/aws.random.cat\/meow";
 const foxesURL = "https://randomfox.ca/floof/";
 
 const showPic = document.querySelector(".showPic");
@@ -24,7 +24,8 @@ btnCat.addEventListener("click", () => {
       return blob.json();
     })
     .then((data) => {
-      showPic.src = data.url;
+      console.log(data)
+      showPic.src = data.file;
     });
 });
 // När "btnFox" klickas: hämta bild från URL och visa
